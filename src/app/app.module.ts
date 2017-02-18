@@ -6,10 +6,12 @@ import { HttpModule } from '@angular/http';
 import { AlertModule } from 'ng2-bootstrap';
 
 import { AppComponent } from './app.component';
+import { FormBuilderComponent } from './form-builder/form-builder.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FormBuilderComponent
   ],
   imports: [
     BrowserModule,
